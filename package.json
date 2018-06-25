@@ -1,0 +1,21 @@
+{
+  "name": "tecnospeed-nuxt",
+  "version": "1.0.0",
+  "description": "My grand Nuxt.js project",
+  "author": "Igor Souza Martins",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build --universal",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/google-tag-manager": "^2.0.0",
+    "bulma": "^0.7.1",
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  }
+}
